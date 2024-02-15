@@ -1,0 +1,33 @@
+body{
+    font-family: 'Verdana', sans-serif;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(87, 123, 254);
+    height: 180px;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.counter__container{
+    text-align: center;
+    font-size: 30px;
+    background-color: #faf7dc;
+    width: 80%;
+    height: 20%;
+    padding: 15px 0px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+button{
+    cursor: pointer;
+    background-color: #faf7dc;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 10px;
+    height: 35px;
+}
